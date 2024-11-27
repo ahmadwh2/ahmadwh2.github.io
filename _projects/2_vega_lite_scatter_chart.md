@@ -1,7 +1,7 @@
 ---
-name: Vega Lite Example Project
+name: Vega Lite Scatter Chart of UFO DATA
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/ufo.png
 description: This is a "showcase" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
@@ -21,6 +21,6 @@ custom_js:
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ahmadwh2/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ahmadwh2/ahmadwh2.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
