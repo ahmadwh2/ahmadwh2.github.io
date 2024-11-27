@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv"
+  },
+  "transform": [{"sample": 4900}],
+  "mark": {"type": "circle", "size": 60},
+  "encoding": {
+    "x": {
+      "field": "Duration_Seconds",
+      "type": "quantitative",
+      "title": "Duration in Seconds",
+      "scale": {"domain": [0, 1000]}
+    },
+    "y": {"field": "Latitude", "type": "quantitative", "title": "Latitude"},
+    "color": {"field": "Shape", "type": "nominal", "title": "UFO Shape"}
+  },
+  "title": "UFO Sightings by Shape, Duration, and Location",
+  "width": 800,
+  "height": 500,
+  "config": {"view": {"stroke": "transparent"}}
+}
