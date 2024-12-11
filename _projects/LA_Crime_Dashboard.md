@@ -12,7 +12,7 @@ custom_js:
 
 # Bar Chart Using UFO Data
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_data_bar.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/LA_crime_dashboard.json" style="width: 100%"></vegachart>
 
 ## Search The Data & Methods
 
