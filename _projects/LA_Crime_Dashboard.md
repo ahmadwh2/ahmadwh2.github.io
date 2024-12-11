@@ -1,8 +1,8 @@
 ---
-name: Vega Lite UFO Bar Chart
+name: Dashboard Using Crime Data from 2020-2024
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/ufo.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+image: assets/pngs/crime.png
+description: This is a dashboard that plots the crimes that have occured in LA by latittude and longitude from 2020-2024.
 custom_js:
   - vega.min
   - vega-lite.min
@@ -10,16 +10,12 @@ custom_js:
   - justcharts
 ---
 
-# Bar Chart Using UFO Data
+# Dashboard
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/LA_crime_dashboard.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/LA_crime_dashboard1.json" style="width: 100%"></vegachart>
 
-## Search The Data & Methods
+## Jupyter Notebook
 
 <div class="left">
-{% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/ahmadwh2/ahmadwh2.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ahmadwh2/ahmadwh2.github.io/blob/main/python_notebooks/LA_Crime_Workbook.ipynb" text="The Analysis" %}
 </div>
