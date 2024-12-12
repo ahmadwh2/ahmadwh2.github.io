@@ -1,0 +1,30 @@
+[
+    {
+      "Premises": "STREET",
+      "Count": 254338
+    },
+    {
+      "Premises": "SINGLE FAMILY DWELLING",
+      "Count": 161240
+    },
+    {
+      "Premises": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)",
+      "Count": 117255
+    },
+    {
+      "Premises": "PARKING LOT",
+      "Count": 67649
+    },
+    {
+      "Premises": "OTHER BUSINESS",
+      "Count": 46919
+    },
+    {
+      "Premises": "SIDEWALK",
+      "Count": 40350
+    },
+    {
+      "Premises": "VEHICLE, PASSENGER/TRUCK",
+      "Count": 28766
+    }
+  ]
