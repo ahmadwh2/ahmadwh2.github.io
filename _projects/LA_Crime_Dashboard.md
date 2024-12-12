@@ -34,6 +34,7 @@ to the Crime Locations dashboard.
 
 
 ```
+
 ![Bar Chart](/assets/pngs/bar_chart.png)
 
 ![Time Chart](/assets/pngs/image.png)
