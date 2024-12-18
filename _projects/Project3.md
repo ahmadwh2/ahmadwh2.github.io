@@ -12,8 +12,9 @@ custom_js:
 
 #  Dashboard Using Crime Data in LA from 2020-2024
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/LA_crime_dashboard1.json" style="width: 100%"></vegachart>
-
+<div style="display: flex; justify-content: center;">
+  <vegachart schema-url="{{ site.baseurl }}/assets/json/LA_crime_dashboard1.json" style="width: 100%; max-width: 800px;"></vegachart>
+</div>
 
 ```
 In the visualizations we created, our dashboard is specialized in representing Crime Data from the year 
@@ -34,7 +35,7 @@ to the Crime Locations dashboard.
 
 
 ```
-![Time Chart](/assets/pngs/image.png)
+![Scatter Chart](/assets/pngs/image.png)
 
 ![Bar Chart](/assets/pngs/bar_chart.png)
 
