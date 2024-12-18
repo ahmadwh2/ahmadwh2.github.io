@@ -34,10 +34,11 @@ to the Crime Locations dashboard.
 
 
 ```
+![Time Chart](/assets/pngs/image.png)
 
 ![Bar Chart](/assets/pngs/bar_chart.png)
 
-![Time Chart](/assets/pngs/ufo.png)
+
 
 
 ```
