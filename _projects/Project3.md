@@ -35,7 +35,7 @@ to the Crime Locations dashboard.
 
 
 ```
-![Scatter Chart](/assets/pngs/image.png)
+![Scatter Chart](/assets/pngs/scatter_image.png)
 
 ![Bar Chart](/assets/pngs/bar_chart.png)
 
